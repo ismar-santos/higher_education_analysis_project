@@ -1,0 +1,171 @@
+NOME_CURSO;NOME_SETOR;NOME_CAMPUS;CURSO_GRAU;CURSO_TURNO;CURSO_ANO;CURSO_VAGAS_PS;CURSO_INSCRITOS_PS;CURSO_APROVADOS_PS_TOTAL;CURSO_INGRESSANTES_PS_TOTAL;CURSO_REL_CAND_VAGA;CURSO_VAGAS_SISU;CURSO_INGRESSANTES_SISU_TOTAL;CURSO_INGRESSANTES_PROVAR_TOTAL;CURSO_INGRESSANTES_OUTROS_TOTAL;CURSO_MATRICULADOS_ANO;CURSO_EVADIDOS_TOTAL;CURSO_CONCLUINTES_TOTAL
+Administração;Setor de Ciências Sociais Aplicadas;Campus Jardim Botânico;Bacharelado;M;2022;88;380;85;29;4.27;22;11;0;64;433.5;58;26
+Administração;Setor de Ciências Sociais Aplicadas;Campus Jardim Botânico;Bacharelado;N;2022;88;324;87;15;3.64;22;8;0;83;456.5;75;31
+Administração Pública;Setor Litoral;Campus Litoral (Matinhos);Bacharelado;N;2022;32;34;21;22;1.03;8;0;0;0;99.0;30;8
+Agroecologia;Setor Litoral;Campus Litoral (Matinhos);Tecnológico;M;2022;28;21;5;6;0.72;14;6;0;0;63.5;18;7
+Agronomia;Setor de Ciências Agrárias;Campus Cabral (Agrárias);Bacharelado;I;2022;106;222;88;91;2.07;26;18;0;13;617.0;69;53
+Agronomia;Setor Palotina;Campus Palotina;Bacharelado;I;2022;64;155;62;63;2.38;16;8;0;0;362.5;26;51
+Análise e Desenvolvimento de Sistemas;Setor de Educação Profissional e Tecnológica;SEPT;Tecnológico;N;2022;64;359;64;64;5.52;16;15;0;0;315.0;67;37
+Análise e Desenvolvimento de Sistemas;Setor de Educação Profissional e Tecnológica;SEPT;Tecnológico;T;2022;32;113;30;31;3.42;8;6;0;0;160.0;26;19
+Arquitetura e Urbanismo;Setor de Tecnologia;Campus Centro Politécnico;Bacharelado;I;2022;60;908;59;60;14.89;0;0;0;1;370.5;13;49
+Artes;Setor Litoral;Campus Litoral (Matinhos);Licenciatura;M;2022;24;21;9;9;0.84;10;3;0;0;92.0;33;8
+Artes Visuais;Setor de Artes, Comunicação e Design;Campus Juvevê (SACOD);Bacharelado;M;2022;13;122;11;11;8.71;3;1;0;2;75.0;12;7
+Artes Visuais;Setor de Artes, Comunicação e Design;Campus Juvevê (SACOD);Licenciatura;M;2022;13;76;13;12;5.43;3;2;0;1;84.5;11;16
+Biomedicina;Setor de Ciências Biológicas;Campus Centro Politécnico;Bacharelado;I;2022;24;599;24;24;23.96;6;6;0;0;146.5;9;15
+Ciência da Computação;Setor de Ciências Exatas;Campus Centro Politécnico;Bacharelado;I;2022;64;1069;60;61;16.45;16;15;0;0;418.5;46;29
+Ciências;Setor Litoral;Campus Litoral (Matinhos);Licenciatura;N;2022;28;5;1;1;0.17;30;5;0;0;59.0;23;17
+Ciências Ambientais;Setor Litoral;Campus Litoral (Matinhos);Bacharelado;I;2022;32;15;5;5;0.45;25;10;0;0;72.0;22;0
+Ciências Biológicas;Setor de Ciências Biológicas;Campus Centro Politécnico;Bacharelado;M;2022;48;260;47;0;5.31;12;0;0;1;31.5;1;22
+Ciências Biológicas;Setor de Ciências Biológicas;Campus Centro Politécnico;Bacharelado;N;2022;48;154;46;0;3.14;12;0;0;0;33.0;2;20
+Ciências Biológicas;Setor de Ciências Biológicas;Campus Centro Politécnico;Licenciatura;M;2022;48;260;47;0;5.31;12;0;0;1;26.5;0;10
+Ciências Biológicas;Setor de Ciências Biológicas;Campus Centro Politécnico;Licenciatura;N;2022;48;154;46;0;3.14;12;0;0;0;38.0;8;10
+Ciências Biológicas;Setor de Ciências Biológicas;Campus Centro Politécnico;Múltiplo;M;2022;48;260;47;46;5.31;12;10;0;2;269.5;29;10
+Ciências Biológicas;Setor de Ciências Biológicas;Campus Centro Politécnico;Múltiplo;N;2022;48;154;46;45;3.14;12;6;0;1;275.0;23;6
+Ciências Biológicas;Setor Palotina;Campus Palotina;Bacharelado;I;2022;48;28;9;9;0.57;36;11;0;0;76.0;16;15
+Ciências Biológicas;Setor Palotina;Campus Palotina;Licenciatura;I;2022;48;28;9;0;0.57;36;0;0;1;30.0;0;10
+Ciências Biológicas;Setor Palotina;Campus Palotina;Múltiplo;I;2022;48;28;9;0;0.57;36;0;0;0;0.0;0;0
+Ciências Contábeis;Setor de Ciências Sociais Aplicadas;Campus Jardim Botânico;Bacharelado;N;2022;96;274;94;88;2.82;24;14;0;9;572.0;82;70
+Ciências Econômicas;Setor de Ciências Sociais Aplicadas;Campus Jardim Botânico;Bacharelado;M;2022;64;208;60;63;3.2;16;8;0;2;391.5;60;25
+Ciências Econômicas;Setor de Ciências Sociais Aplicadas;Campus Jardim Botânico;Bacharelado;N;2022;72;190;70;70;2.6;18;15;0;1;568.0;81;60
+Ciências Exatas;Centro de Estudos do Mar;Campus Pontal do Paraná;Licenciatura (Física);N;2022;26;6;1;2;0.22;27;5;0;0;34.0;20;0
+Ciências Exatas;Centro de Estudos do Mar;Campus Pontal do Paraná;Licenciatura (Matemática);N;2022;26;6;1;0;0.22;27;0;0;2;17.5;2;3
+Ciências Exatas;Centro de Estudos do Mar;Campus Pontal do Paraná;Licenciatura (Química);N;2022;26;6;1;0;0.22;27;0;0;3;13.0;3;1
+Ciências Exatas;Centro de Estudos do Mar;Campus Pontal do Paraná;Segunda Licenciatura;N;2022;26;6;1;0;0.22;27;0;0;3;13.0;3;1
+Ciências Exatas;Jandaia;Campus Jandaia do Sul;Licenciatura (Física);T;2022;40;9;3;3;0.22;41;3;0;3;21.0;15;3
+Ciências Exatas;Jandaia;Campus Jandaia do Sul;Licenciatura (Matemática);T;2022;40;9;3;0;0.22;41;0;0;1;17.0;2;6
+Ciências Exatas;Jandaia;Campus Jandaia do Sul;Licenciatura (Química);T;2022;40;9;3;0;0.22;41;0;0;0;5.5;3;0
+Ciências Exatas;Jandaia;Campus Jandaia do Sul;Segunda Licenciatura;T;2022;40;9;3;3;0.22;41;3;0;3;21.0;15;3
+Ciências Exatas;Jandaia;Campus Jandaia do Sul;Segunda Licenciatura;T;2022;40;9;3;0;0.22;41;0;0;1;17.0;2;6
+Ciências Exatas;Jandaia;Campus Jandaia do Sul;Segunda Licenciatura;T;2022;40;9;3;0;0.22;41;0;0;0;5.5;3;0
+Ciências Exatas;Setor Palotina;Campus Palotina;Licenciatura (Física);N;2022;80;16;5;5;0.2;86;17;0;0;44.0;25;4
+Ciências Exatas;Setor Palotina;Campus Palotina;Licenciatura (Matemática);N;2022;80;16;5;0;0.2;86;0;0;0;16.0;1;4
+Ciências Exatas;Setor Palotina;Campus Palotina;Licenciatura (Química);N;2022;80;16;5;0;0.2;86;0;0;0;23.0;0;5
+Ciências Exatas;Setor Palotina;Campus Palotina;Segunda Licenciatura;N;2022;80;16;5;5;0.2;86;17;0;0;44.0;25;4
+Ciências Exatas;Setor Palotina;Campus Palotina;Segunda Licenciatura;N;2022;80;16;5;0;0.2;86;0;0;0;16.0;1;4
+Ciências Exatas;Setor Palotina;Campus Palotina;Segunda Licenciatura;N;2022;80;16;5;0;0.2;86;0;0;0;23.0;0;5
+Ciências Sociais;Setor de Ciências Humanas;Campus Centro - Reitoria;Bacharelado;M;2022;0;0;0;0;0.0;0;0;0;0;150.0;15;21
+Ciências Sociais;Setor de Ciências Humanas;Campus Centro - Reitoria;Licenciatura;M;2022;64;132;59;59;2.03;16;15;0;1;197.0;58;9
+Ciências Sociais;Setor de Ciências Humanas;Campus Centro - Reitoria;Múltiplo;M;2022;0;0;0;0;0.0;0;0;0;0;0.0;0;0
+Computação;Jandaia;Campus Jandaia do Sul;Licenciatura;T;2022;40;8;1;1;0.2;42;6;0;0;32.0;23;2
+Computação;Setor Palotina;Campus Palotina;Licenciatura;N;2022;40;21;9;9;0.51;31;8;0;0;49.0;20;2
+Comunicação Institucional;Setor de Educação Profissional e Tecnológica;SEPT;Tecnológico;M;2022;36;20;10;11;0.54;26;19;0;0;114.5;25;14
+Design de Produto;Setor de Artes, Comunicação e Design;Campus Juvevê (SACOD);Bacharelado;M;2022;33;73;32;32;2.15;0;0;0;0;172.0;16;0
+Design Gráfico;Setor de Artes, Comunicação e Design;Campus Juvevê (SACOD);Bacharelado;I;2022;33;460;33;33;13.53;0;0;0;0;168.5;22;0
+Direito;Setor de Ciências Jurídicas;Campus Centro - Santos Andrade;Bacharelado;M;2022;80;1573;79;77;19.42;20;14;0;5;526.0;20;79
+Direito;Setor de Ciências Jurídicas;Campus Centro - Santos Andrade;Bacharelado;N;2022;80;928;80;81;11.46;20;16;0;2;553.0;27;91
+Educação do Campo;Setor Litoral;Campus Litoral (Matinhos);Licenciatura;I;2022;0;0;0;36;0.0;0;0;0;0;113.5;27;4
+Educação Física;Setor de Ciências Biológicas;Campus Centro Politécnico;Bacharelado;I;2022;60;262;58;60;4.3;15;8;0;0;317.5;42;40
+Educação Física;Setor de Ciências Biológicas;Campus Centro Politécnico;Licenciatura;I;2022;60;96;50;52;1.57;15;10;0;0;288.5;52;21
+Educação Física;Setor Litoral;Campus Litoral (Matinhos);Licenciatura;N;2022;28;75;27;27;2.59;7;3;0;0;159.5;34;15
+Enfermagem;Setor de Ciências da Saúde;Campus Centro - Saúde;Bacharelado;I;2022;48;329;47;0;6.71;12;0;0;1;63.5;1;18
+Enfermagem;Setor de Ciências da Saúde;Campus Centro - Saúde;Licenciatura;I;2022;48;329;47;0;6.71;12;0;0;0;1.5;0;0
+Enfermagem;Setor de Ciências da Saúde;Campus Centro - Saúde;Múltiplo;I;2022;48;329;47;46;6.71;12;11;0;1;238.0;32;15
+Engenharia Agrícola;Jandaia;Campus Jandaia do Sul;Bacharelado;M;2022;32;20;7;4;0.61;21;4;0;12;81.5;31;16
+Engenharia Ambiental;Setor de Tecnologia;Campus Centro Politécnico;Bacharelado;I;2022;48;100;35;35;2.04;12;11;0;1;205.5;49;23
+Engenharia Ambiental e Sanitária;Centro de Estudos do Mar;Campus Pontal do Paraná;Bacharelado;T;2022;32;22;4;4;0.67;20;16;0;0;140.5;33;13
+Engenharia Cartográfica e de Agrimensura;Setor de Ciências da Terra;Campus Centro Politécnico;Bacharelado;I;2022;35;15;7;7;0.42;29;22;0;1;144.5;31;19
+Engenharia Civil;Centro de Estudos do Mar;Campus Pontal do Paraná;Bacharelado;T;2022;32;64;32;32;1.94;8;6;0;0;194.5;34;20
+Engenharia Civil;Setor de Tecnologia;Campus Centro Politécnico;Bacharelado;I;2022;133;454;124;122;3.39;33;23;0;4;859.0;75;91
+Engenharia de Alimentos;Jandaia;Campus Jandaia do Sul;Bacharelado;M;2022;28;8;1;1;0.28;28;9;0;0;59.0;21;10
+Engenharia de Aquicultura;Centro de Estudos do Mar;Campus Pontal do Paraná;Bacharelado;M;2022;24;4;0;0;0.16;27;3;0;2;51.0;17;2
+Engenharia de Aquicultura;Setor Palotina;Campus Palotina;Bacharelado;I;2022;48;6;1;1;0.12;54;13;0;0;80.5;18;11
+Engenharia de Bioprocessos e Biotecnologia;Setor de Tecnologia;Campus Centro Politécnico;Bacharelado;I;2022;36;136;34;35;3.68;9;6;0;1;207.5;21;14
+Engenharia de Bioprocessos e Biotecnologia;Setor Palotina;Campus Palotina;Bacharelado;I;2022;52;23;9;9;0.43;42;16;0;0;123.5;31;24
+Engenharia de Energia;Setor Palotina;Campus Palotina;Bacharelado;M;2022;48;22;7;8;0.45;40;15;0;0;94.5;18;6
+Engenharia de Produção;Jandaia;Campus Jandaia do Sul;Bacharelado;T;2022;32;17;7;8;0.52;23;11;0;0;120.0;28;22
+Engenharia de Produção;Setor de Tecnologia;Campus Centro Politécnico;Bacharelado;I;2022;48;205;45;46;4.18;12;9;0;1;316.0;44;39
+Engenharia Elétrica;Setor de Tecnologia;Campus Centro Politécnico;Bacharelado;I;2022;80;195;59;58;2.41;20;17;0;15;419.5;61;29
+Engenharia Elétrica;Setor de Tecnologia;Campus Centro Politécnico;Bacharelado;N;2022;40;123;38;34;3.0;10;7;0;4;288.0;26;17
+Engenharia Florestal;Setor de Ciências Agrárias;Campus Jardim Botânico;Bacharelado;I;2022;64;33;18;19;0.51;49;42;0;1;321.5;43;26
+Engenharia Industrial Madeireira;Setor de Ciências Agrárias;Campus Jardim Botânico;Bacharelado;I;2022;32;3;2;2;0.09;37;34;0;0;109.5;44;5
+Engenharia Industrial Madeireira;Setor de Ciências Agrárias;Campus Jardim Botânico;Bacharelado;N;2022;32;21;16;16;0.64;20;11;0;0;114.5;43;10
+Engenharia Mecânica;Setor de Tecnologia;Campus Centro Politécnico;Bacharelado;I;2022;86;500;76;81;5.75;22;20;0;5;535.0;71;42
+Engenharia Mecânica;Setor de Tecnologia;Campus Centro Politécnico;Bacharelado;N;2022;72;282;70;72;3.86;18;16;0;1;477.0;62;41
+Engenharia Química;Setor de Tecnologia;Campus Centro Politécnico;Bacharelado;I;2022;86;314;79;83;3.61;22;17;0;0;543.0;68;43
+Estatística;Setor de Ciências Exatas;Campus Centro Politécnico;Bacharelado;N;2022;66;65;43;12;0.97;0;0;0;1;294.0;97;19
+Expressão Gráfica;Setor de Ciências Exatas;Campus Centro Politécnico;Bacharelado;M;2022;35;15;9;9;0.42;29;28;0;0;115.0;37;0
+Farmácia;Setor de Ciências da Saúde;Campus Jardim Botânico;Bacharelado;I;2022;86;281;84;86;3.23;22;21;0;1;536.0;47;60
+Filosofia;Setor de Ciências Humanas;Campus Centro - Reitoria;Bacharelado;M;2022;32;49;26;0;1.48;8;0;0;2;9.5;2;1
+Filosofia;Setor de Ciências Humanas;Campus Centro - Reitoria;Bacharelado;N;2022;40;81;40;0;1.98;10;0;0;1;17.0;1;4
+Filosofia;Setor de Ciências Humanas;Campus Centro - Reitoria;Licenciatura;M;2022;32;49;26;24;1.48;8;5;0;0;77.5;17;0
+Filosofia;Setor de Ciências Humanas;Campus Centro - Reitoria;Licenciatura;N;2022;40;81;40;39;1.98;10;7;0;0;106.0;37;0
+Filosofia;Setor de Ciências Humanas;Campus Centro - Reitoria;Múltiplo;M;2022;32;49;26;0;1.48;8;0;0;0;42.5;9;10
+Filosofia;Setor de Ciências Humanas;Campus Centro - Reitoria;Múltiplo;N;2022;40;81;40;0;1.98;10;0;0;0;64.5;13;7
+Física;Setor de Ciências Exatas;Campus Centro Politécnico;Bacharelado;M;2022;56;89;35;36;1.56;14;18;0;0;242.0;51;20
+Física;Setor de Ciências Exatas;Campus Centro Politécnico;Licenciatura;N;2022;0;0;0;13;0.0;0;49;0;0;216.5;70;16
+Fisioterapia;Setor de Ciências Biológicas;Campus Centro Politécnico;Bacharelado;I;2022;40;385;38;41;9.39;10;4;0;0;229.0;27;51
+Geografia;Setor de Ciências da Terra;Campus Centro Politécnico;Bacharelado;M;2022;27;21;13;0;0.75;14;0;0;0;23.5;3;14
+Geografia;Setor de Ciências da Terra;Campus Centro Politécnico;Bacharelado;N;2022;32;25;16;0;0.76;15;0;0;1;25.5;2;3
+Geografia;Setor de Ciências da Terra;Campus Centro Politécnico;Licenciatura;M;2022;27;21;13;13;0.75;14;8;0;0;97.0;20;14
+Geografia;Setor de Ciências da Terra;Campus Centro Politécnico;Licenciatura;N;2022;32;25;16;15;0.76;15;9;0;0;108.0;30;7
+Geografia;Setor de Ciências da Terra;Campus Centro Politécnico;Múltiplo;M;2022;27;21;13;0;0.75;14;0;0;0;28.0;4;3
+Geografia;Setor de Ciências da Terra;Campus Centro Politécnico;Múltiplo;N;2022;32;25;16;0;0.76;15;0;0;0;36.5;11;6
+Geografia;Setor Litoral;Campus Litoral (Matinhos);Licenciatura;N;2022;28;5;3;3;0.17;30;11;0;0;61.5;24;5
+Geologia;Setor de Ciências da Terra;Campus Centro Politécnico;Bacharelado;I;2022;26;45;19;19;1.67;7;5;0;0;159.5;14;23
+Gestão Ambiental;Setor Litoral;Campus Litoral (Matinhos);Bacharelado;M;2022;32;15;5;0;0.45;25;0;0;0;11.0;4;6
+Gestão da Informação;Setor de Ciências Sociais Aplicadas;Campus Jardim Botânico;Bacharelado;M;2022;48;37;20;20;0.76;25;21;0;1;200.0;59;17
+Gestão da Qualidade;Setor de Educação Profissional e Tecnológica;SEPT;Tecnológico;N;2022;36;29;10;10;0.78;16;9;0;0;119.5;28;28
+Gestão de Turismo;Setor Litoral;Campus Litoral (Matinhos);Tecnológico;N;2022;28;9;4;4;0.31;26;6;0;0;50.0;18;6
+Gestão e Empreendedorismo;Setor Litoral;Campus Litoral (Matinhos);Bacharelado;N;2022;0;0;0;0;0.0;0;0;0;0;54.5;20;12
+Gestão Imobiliária;Setor Litoral;Campus Litoral (Matinhos);Tecnológico;N;2022;0;0;0;0;0.0;0;0;0;0;47.5;33;2
+Gestão Pública;Setor de Educação Profissional e Tecnológica;SEPT;Tecnológico;N;2022;36;28;19;17;0.76;17;8;0;3;118.0;32;17
+História;Setor de Ciências Humanas;Campus Centro - Reitoria;Bacharelado;T;2022;32;218;32;0;6.61;8;0;0;0;7.5;0;0
+História;Setor de Ciências Humanas;Campus Centro - Reitoria;Licenciatura;T;2022;32;218;32;32;6.61;8;6;0;2;118.0;22;0
+História;Setor de Ciências Humanas;Campus Centro - Reitoria;Múltiplo;T;2022;32;218;32;0;6.61;8;0;0;0;29.0;5;11
+História - Memória e Imagem;Setor de Ciências Humanas;Campus Centro - Reitoria;Bacharelado;N;2022;32;36;18;18;1.09;8;5;0;1;140.0;50;6
+Informática Biomédica;Setor de Ciências Exatas;Campus Centro Politécnico;Bacharelado;I;2022;24;55;23;11;2.2;6;0;0;17;106.5;39;9
+Jornalismo;Setor de Artes, Comunicação e Design;Campus Juvevê (SACOD);Bacharelado;I;2022;24;300;23;23;12.0;6;5;0;0;123.0;5;13
+Letras - Francês;Setor de Ciências Humanas;Campus Centro - Reitoria;Bacharelado;N;2022;4;17;4;4;3.4;1;0;0;0;30.5;8;2
+Letras - Inglês;Setor de Ciências Humanas;Campus Centro - Reitoria;Licenciatura;M;2022;16;58;15;15;3.41;4;3;0;0;51.5;12;2
+Letras - Inglês;Setor de Ciências Humanas;Campus Centro - Reitoria;Licenciatura;N;2022;16;43;13;13;2.53;4;3;0;0;57.0;14;5
+Letras - Italiano;Setor de Ciências Humanas;Campus Centro - Reitoria;Licenciatura;M;2022;0;0;0;6;0.0;0;6;0;0;36.5;18;3
+Letras - Japonês;Setor de Ciências Humanas;Campus Centro - Reitoria;Bacharelado;N;2022;8;18;8;8;2.0;2;2;0;2;42.0;7;10
+Letras - Libras;Setor de Ciências Humanas;Campus Centro - Reitoria;Licenciatura;N;2022;0;0;0;0;0.0;0;0;0;4;57.0;15;10
+Letras - Polonês;Setor de Ciências Humanas;Campus Centro - Reitoria;Bacharelado;N;2022;4;0;0;0;0.0;5;1;0;0;13.5;2;2
+Letras - Português;Setor de Ciências Humanas;Campus Centro - Reitoria;Bacharelado;M;2022;5;5;0;0;0.83;2;0;0;0;18.5;3;2
+Letras - Português;Setor de Ciências Humanas;Campus Centro - Reitoria;Bacharelado;M;2022;5;5;0;0;0.83;2;1;0;0;19.5;4;3
+Letras - Português;Setor de Ciências Humanas;Campus Centro - Reitoria;Bacharelado;N;2022;4;9;4;4;1.8;1;0;0;0;40.5;8;4
+Letras - Português;Setor de Ciências Humanas;Campus Centro - Reitoria;Licenciatura;M;2022;0;0;0;0;0.0;0;0;0;0;30.0;6;9
+Letras - Português;Setor de Ciências Humanas;Campus Centro - Reitoria;Licenciatura;N;2022;16;36;16;16;2.12;4;3;0;11;126.5;23;13
+Letras - Português e Alemão;Setor de Ciências Humanas;Campus Centro - Reitoria;Licenciatura;M;2022;15;17;8;9;1.06;0;0;0;0;37.5;5;5
+Letras - Português e Espanhol;Setor de Ciências Humanas;Campus Centro - Reitoria;Licenciatura;M;2022;15;13;10;10;0.81;2;2;0;0;56.0;10;7
+Letras - Português e Espanhol ou Alemão ou Grego ou Latim;Setor de Ciências Humanas;Campus Centro - Reitoria;Bacharelado;M;2022;20;39;18;19;1.86;0;0;0;0;71.0;15;2
+Letras - Português e Francês;Setor de Ciências Humanas;Campus Centro - Reitoria;Licenciatura;N;2022;15;20;9;9;1.25;0;0;0;0;55.5;21;4
+Letras - Português e Japonês;Setor de Ciências Humanas;Campus Centro - Reitoria;Licenciatura;N;2022;10;14;6;6;1.27;0;0;0;0;35.0;10;7
+Letras - Português e Polonês;Setor de Ciências Humanas;Campus Centro - Reitoria;Licenciatura;N;2022;5;2;1;1;0.33;3;2;0;2;18.0;9;0
+Linguagem e Comunicação;Setor Litoral;Campus Litoral (Matinhos);Licenciatura;N;2022;28;5;1;1;0.17;30;10;0;0;34.0;9;10
+Luteria;Setor de Educação Profissional e Tecnológica;SEPT;Tecnológico;I;2022;12;25;12;12;1.92;3;2;0;0;77.0;20;13
+Matemática;Setor de Ciências Exatas;Campus Centro Politécnico;Bacharelado;T;2022;0;0;0;0;0.0;0;0;0;2;28.0;3;6
+Matemática;Setor de Ciências Exatas;Campus Centro Politécnico;Licenciatura;N;2022;44;34;18;18;0.76;0;0;0;0;161.0;56;8
+Matemática;Setor de Ciências Exatas;Campus Centro Politécnico;Licenciatura;T;2022;44;37;18;16;0.82;0;0;0;0;173.0;41;9
+Matemática;Setor de Ciências Exatas;Campus Centro Politécnico;Múltiplo;T;2022;0;0;0;0;0.0;0;0;0;0;1.5;1;0
+Matemática Industrial;Setor de Ciências Exatas;Campus Centro Politécnico;Bacharelado;T;2022;32;19;8;8;0.58;27;22;0;0;85.5;20;8
+Medicina;Setor de Ciências da Saúde;Campus Centro - Saúde;Bacharelado;I;2022;152;11339;153;156;74.11;38;38;0;5;1172.0;15;89
+Medicina;Toledo;Unidade Acadêmica Toledo;Bacharelado;I;2022;48;2293;49;52;46.8;12;12;0;6;357.0;9;23
+Medicina Veterinária;Setor de Ciências Agrárias;Campus Cabral (Agrárias);Bacharelado;I;2022;48;967;48;49;19.73;12;9;0;4;333.5;23;35
+Medicina Veterinária;Setor Palotina;Campus Palotina;Bacharelado;I;2022;64;265;62;64;4.08;16;4;0;0;435.5;30;63
+Música;Setor de Artes, Comunicação e Design;Campus Batel;Bacharelado;T;2022;20;75;19;20;3.57;0;0;0;1;93.5;11;6
+Música;Setor de Artes, Comunicação e Design;Campus Batel;Licenciatura;T;2022;20;17;3;3;0.81;0;0;0;1;70.0;11;17
+Negócios Imobiliários;Setor de Educação Profissional e Tecnológica;SEPT;Tecnológico;N;2022;36;30;15;14;0.81;15;8;0;1;92.5;25;21
+Nutrição;Setor de Ciências da Saúde;Campus Jardim Botânico;Bacharelado;I;2022;53;334;52;53;6.19;13;9;0;0;295.5;30;30
+Oceanografia;Centro de Estudos do Mar;Campus Pontal do Paraná;Bacharelado;I;2022;32;49;17;19;1.48;8;2;0;1;135.5;33;25
+Odontologia;Setor de Ciências da Saúde;Campus Jardim Botânico;Bacharelado;I;2022;74;671;73;77;8.95;18;17;0;1;484.5;31;40
+Pedagogia;Setor de Educação;Campus Centro - Reitoria;Licenciatura;EaD;2022;0;0;0;0;0.0;0;0;0;0;110.5;34;2
+Pedagogia;Setor de Educação;Campus Centro - Reitoria;Licenciatura;M;2022;56;100;55;56;1.75;14;12;0;0;364.0;54;27
+Pedagogia;Setor de Educação;Campus Centro - Reitoria;Licenciatura;N;2022;80;149;60;63;1.84;20;12;0;0;543.0;115;28
+Produção Cênica;Setor de Educação Profissional e Tecnológica;SEPT;Tecnológico;N;2022;36;0;0;0;0.0;0;0;0;0;85.0;25;12
+Produção Cultural;SETOR DE ARTES COMUNICAÇÃO E DESIGN;Campus Batel;Bacharelado;M;2022;20;31;16;16;1.48;0;0;0;0;14.0;3;0
+Psicologia;Setor de Ciências Humanas;Campus Centro - Santos Andrade;Bacharelado;I;2022;64;1602;64;66;24.65;16;13;0;1;442.5;18;45
+Publicidade e Propaganda;Setor de Artes, Comunicação e Design;Campus Juvevê (SACOD);Bacharelado;I;2022;24;269;24;24;10.76;6;5;0;1;142.5;8;22
+Química;Setor de Ciências Exatas;Campus Centro Politécnico;Bacharelado;I;2022;53;89;39;39;1.65;13;12;0;0;181.5;34;6
+Química;Setor de Ciências Exatas;Campus Centro Politécnico;Licenciatura;I;2022;53;89;39;0;1.65;13;0;0;0;18.0;2;2
+Química;Setor de Ciências Exatas;Campus Centro Politécnico;Licenciatura;N;2022;40;24;11;11;0.59;0;0;0;0;108.0;24;10
+Química;Setor de Ciências Exatas;Campus Centro Politécnico;Múltiplo;I;2022;53;89;39;0;1.65;13;0;0;0;67.5;6;21
+Relações Públicas;Setor de Artes, Comunicação e Design;Campus Juvevê (SACOD);Bacharelado;I;2022;24;91;24;25;3.64;6;3;0;0;121.0;10;6
+Saúde Coletiva;Setor Litoral;Campus Litoral (Matinhos);Bacharelado;M;2022;32;5;1;1;0.15;35;18;0;0;46.0;29;5
+Secretariado;Setor de Educação Profissional e Tecnológica;SEPT;Tecnológico;N;2022;40;13;4;4;0.32;37;22;0;0;102.5;40;17
+Serviço Social;Setor Litoral;Campus Litoral (Matinhos);Bacharelado;N;2022;28;49;24;24;1.69;7;2;0;0;145.0;23;22
+Terapia Ocupacional;Setor de Ciências da Saúde;Campus Centro - Saúde;Bacharelado;I;2022;48;44;27;27;0.9;19;14;0;1;259.0;38;32
+Terapia Ocupacional;Setor de Ciências da Saúde;Campus Centro - Saúde;Bacharelado;N;2022;48;64;35;35;1.31;12;12;0;1;224.0;37;11
+Turismo;Setor de Ciências Humanas;Campus Rebouças;Bacharelado;N;2022;35;46;25;23;1.28;9;5;0;1;150.5;25;22
+Zootecnia;Setor de Ciências Agrárias;Campus Cabral (Agrárias);Bacharelado;I;2022;48;44;28;28;0.9;18;11;0;1;228.5;29;24

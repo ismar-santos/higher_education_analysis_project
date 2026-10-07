@@ -1,0 +1,4 @@
+__pycache__/
+.ipynb_checkpoints/
+data_link.txt
+exploratory_analysis.ipynb
