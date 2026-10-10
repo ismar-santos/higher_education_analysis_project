@@ -6,15 +6,15 @@ PATH = '../data/raw/graduacao_resumo_cursos_20{0:d}.csv'
 
 # Encodings e separadores dos CSVs dos anos correspondentes
 CONFIG = {
-    18: ('latin1', ';'),
-    19: ('latin1', ';'),
-    20: ('latin1', ';'),
-    21: ('latin1', ';'),
-    22: ('latin1', ';'),
-    23: ('latin1', ';'),
-    24: ('utf-8',  ','),
-    25: ('utf-8',  ','),
-    26: ('utf-8',  ',')
+    18: ('latin1',    ';'),
+    19: ('latin1',    ';'),
+    20: ('latin1',    ';'),
+    21: ('latin1',    ';'),
+    22: ('latin1',    ';'),
+    23: ('latin1',    ';'),
+    24: ('utf-8-sig', ','),
+    25: ('utf-8',     ','),
+    26: ('utf-8',     ',')
 }
 
 csv_path = lambda year: PATH.format(year)
@@ -45,13 +45,12 @@ def std_columns():
 #   função create_special_dfs)
 
 def fix_csv_24():
-    with open(csv_path(24), 'r') as f:
+    with open(csv_path(24), 'r', encoding=CONFIG[24][0]) as f:
         csv_txt = (
             f.read()
                 .replace('\"NOME_CURSO', '\"NOME_CURSO\"')
                 .replace('\"\"\"', '\"')
                 .replace('\"\"', '\"')
-                .replace('\ufeff', '') # Caractere não codificado por latin1
                 .encode('latin1').decode('utf-8')
         )
 
