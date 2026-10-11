@@ -41,9 +41,7 @@ def fix_invalid_data():
 
 def col_manipulation():
     cols_drop = ['vagas_ps', 'inscritos_ps', 'aprovados_ps', 'rel_cand_vaga', 'vagas_sisu']
+    cols_sum = ['ingressantes_ps', 'ingressantes_sisu', 'ingressantes_provar', 'ingressantes_outros']
+
     df.drop(columns=cols_drop, inplace=True)
-    df.insert(
-        10, 'ingressantes_total', 
-        df['ingressantes_ps'] + df['ingressantes_sisu'] + df['ingressantes_provar'] +
-        df['ingressantes_outros']
-    )
+    df.insert(10, 'ingressantes_total', df[cols_sum].sum(axis=1))
