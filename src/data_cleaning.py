@@ -1,11 +1,11 @@
 """
 Nome:      data_cleaning.py
-Descrição: Executa a limpeza dos dados justificada no notebook data_cleaning_rationale
+Descrição: Executa a limpeza dos dados justificada no notebook data_cleaning_rationale. As seções nos
+           comentários correspondem às seções no notebook.
 """
 
 import numpy as np
 import pandas as pd
-
 from src.data_loading import load_data
 
 df = load_data()

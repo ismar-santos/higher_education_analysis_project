@@ -1,7 +1,7 @@
 """
 Nome:      data_loading.py
 Descrição: Carrega os dados corrigindo inconsistências dos arquivos, padronizando e concatenando em
-           um único DataFrame
+           um único DataFrame.
 """
 
 import numpy as np
