@@ -10,10 +10,12 @@ from src.data_loading import load_data
 
 df = load_data()
 
+
+
 # 1. Dados inválidos e parsing das colunas
 
 num_cols = ['ano', 'vagas_ps', 'inscritos_ps', 'aprovados_ps', 'ingressantes_ps', 'vagas_sisu',
-            'ingressantes_sisu', 'ingressantes_provar', 'ingressantes_outros', 'matriculados_ano',
+            'ingressantes_sisu', 'ingressantes_provar', 'ingressantes_outros', 'matriculados',
             'evadidos', 'concluintes', 'rel_cand_vaga']
 
 def fix_invalid_data():
@@ -32,3 +34,16 @@ def fix_invalid_data():
     # Apenas colunas de números inteiros (todas exceto rel_cand_vaga)
     for col_name in num_cols[:len(num_cols)-1]:
         df[col_name] = df[col_name].round().astype('Int64')
+
+
+
+# 2. Manipulação de colunas
+
+def col_manipulation():
+    cols_drop = ['vagas_ps', 'inscritos_ps', 'aprovados_ps', 'rel_cand_vaga', 'vagas_sisu']
+    df.drop(columns=cols_drop, inplace=True)
+    df.insert(
+        10, 'ingressantes_total', 
+        df['ingressantes_ps'] + df['ingressantes_sisu'] + df['ingressantes_provar'] +
+        df['ingressantes_outros']
+    )
