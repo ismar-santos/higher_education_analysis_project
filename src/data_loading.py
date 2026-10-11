@@ -1,3 +1,9 @@
+"""
+Nome:      data_loading.py
+Descrição: Carrega os dados corrigindo inconsistências dos arquivos, padronizando e concatenando em
+           um único DataFrame
+"""
+
 import numpy as np
 import pandas as pd
 from io import StringIO

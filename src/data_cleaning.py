@@ -1,3 +1,8 @@
+"""
+Nome:      data_cleaning.py
+Descrição: Executa a limpeza dos dados justificada no notebook data_cleaning_rationale
+"""
+
 import numpy as np
 import pandas as pd
 
