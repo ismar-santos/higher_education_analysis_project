@@ -6,7 +6,7 @@ Descrição: Executa a limpeza dos dados justificada no notebook data_cleaning_r
 
 import numpy as np
 import pandas as pd
-from src.data_loading import load_data
+from data_loading import load_data
 
 df = load_data()
 
@@ -42,16 +42,13 @@ def fix_invalid_data():
 # 2. Manipulação de colunas
 
 def manipulates_cols():
-    cols_drop = ['vagas_ps', 'inscritos_ps', 'aprovados_ps', 'rel_cand_vaga', 'vagas_sisu']
-    cols_sum = ['ingressantes_ps', 'ingressantes_sisu', 'ingressantes_provar', 'ingressantes_outros']
-
+    cols_drop = ['vagas_ps', 'rel_cand_vaga']
     df.drop(columns=cols_drop, inplace=True)
-    df.insert(10, 'ingressantes_total', df[cols_sum].sum(axis=1))
 
 
 
 # 3. Valores nulos
 
 def drop_na():
-    idxs = df[df['ingressantes_ps'].isna()].index
-    df.drop(index=idxs, inplace=True)
+    cols = df.columns.difference(['concluintes'])
+    df.dropna(subset=cols, inplace=True)
