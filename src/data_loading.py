@@ -33,6 +33,7 @@ def standardize_columns(columns):
             .replace('nome_', '')
             .replace('curso_', '')
             .replace('_total', '')
+            .replace('_ano', '')
             .replace('\"', '')
             .replace('\n', '')
     ), columns))
