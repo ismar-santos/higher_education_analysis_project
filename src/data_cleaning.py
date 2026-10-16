@@ -96,6 +96,20 @@ def clean_cat_names(df):
         'Palotina':                            'Desconhecido'
     }).str.strip()
 
+    df['campus'] = df['campus'].str.replace('Campus', '').str.strip()
+
+    df.loc[df['grau'] == 'Licenciatura (Matemática)', 'curso'] = 'Matemática'
+    df.loc[df['grau'] == 'Licenciatura (Física)', 'curso'] = 'Física'
+    df.loc[df['grau'] == 'Licenciatura (Química)', 'curso'] = 'Química'
+
+    df.loc[~df['grau'].isin([
+        'Bacharelado',
+        'Licenciatura',
+        'Segunda Licenciatura',
+        'Múltiplo',
+        'Tecnológico'
+    ]), 'grau'] = 'Desconhecido'
+
     return df
 
 def clean_missing_courses(df):
