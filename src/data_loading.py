@@ -19,8 +19,7 @@ CONFIG = {
     22: ('latin1',    ';'),
     23: ('latin1',    ';'),
     24: ('utf-8-sig', ','),
-    25: ('utf-8',     ','),
-    26: ('utf-8',     ',')
+    25: ('utf-8',     ',')
 }
 
 csv_path = lambda year: PATH.format(year)
@@ -74,22 +73,14 @@ def create_special_dfs(years, sources):
     
     for year, src in zip(years, sources):
         df = pd.read_csv(src, encoding=CONFIG[year][0], sep=CONFIG[year][1])
-
-        if year == 26:
-            # Neste ano não há a coluna de concluintes, mas para a concatenação ela é criada
-            # e preenchida com valor nulo
-
-            df['concluintes'] = np.nan
-            df.columns = std_columns()
-        else:
-            df.columns = standardize_columns(df.columns)
-            df = df[std_columns()] # Elimina colunas extras
+        df.columns = standardize_columns(df.columns)
+        df = df[std_columns()] # Elimina colunas extras
         dfs.append(df)
 
     return dfs
 
 def create_dfs():
-    special_years = [20, 21, 24, 26] # Anos com tratamento especial
+    special_years = [20, 21, 24] # Anos com tratamento especial
 
     dfs = [
         pd.read_csv(
@@ -104,8 +95,7 @@ def create_dfs():
     special_csv_sources = [
         csv_path(special_years[0]),
         csv_path(special_years[1]),
-        StringIO(fix_csv_24()),
-        csv_path(special_years[3])
+        StringIO(fix_csv_24())
     ]
     dfs.extend(create_special_dfs(special_years, special_csv_sources))
 
@@ -123,5 +113,6 @@ def load_data():
     dfs = create_dfs()
     df = pd.concat(dfs, ignore_index=True)
     validate_data_len(df, dfs)
+    df.to_csv('../data/processed/loaded_data.csv', index=False)
 
     return df
