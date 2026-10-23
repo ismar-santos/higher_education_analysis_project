@@ -4,11 +4,10 @@ Descrição: Carrega os dados corrigindo inconsistências dos arquivos, padroniz
            um único DataFrame.
 """
 
-import numpy as np
 import pandas as pd
 from io import StringIO
 
-PATH = '../data/raw/graduacao_resumo_cursos_20{0:d}.csv'
+PATH = 'data/raw/graduacao_resumo_cursos_20{0:d}.csv'
 
 # Encodings e separadores dos CSVs dos anos correspondentes
 CONFIG = {
@@ -113,6 +112,5 @@ def load_data():
     dfs = create_dfs()
     df = pd.concat(dfs, ignore_index=True)
     validate_data_len(df, dfs)
-    df.to_csv('../data/processed/loaded_data.csv', index=False)
 
     return df

@@ -4,9 +4,7 @@ Descrição: Executa a limpeza dos dados justificada no notebook data_cleaning_r
            comentários correspondem às seções no notebook.
 """
 
-import numpy as np
 import pandas as pd
-from data_loading import load_data
 
 def affected_data_calc(df0, df):
     rows_affected = df0.loc[~(df0 == df).all(axis=1).values]
@@ -221,7 +219,6 @@ def clean_data(df):
         df, aff = func(df)
         affs.append(aff)
 
-    df.to_csv('../data/processed/cleaned_data.csv', index=False)
     return (
         df,
         [aff[0] for aff in affs],

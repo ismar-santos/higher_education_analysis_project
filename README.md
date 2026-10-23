@@ -1,10 +1,10 @@
 # Higher Education Analysis
 
-Segundo o [Instituto Semesp](https://www.semesp.org.br/mapa/edicao-16/brasil/), a taxa de evasão nos cursos presenciais de ensino superior no Brasil em 2024 foi de 24,8%. Estas desistências desencadeiam uma série de problemas tanto para os estudantes quanto para a sociedade, como, por exemplo, menor retorno dos investimentos públicos em educação e aumento do custo por estudante formado.
+Segundo o [Instituto Semesp](https://www.semesp.org.br/mapa/edicao-16/brasil/), a taxa de evasão nos cursos presenciais de ensino superior público no Brasil foi em média 21% nos anos de 2018 à 2024. Estas desistências desencadeiam uma série de problemas tanto para os estudantes quanto para a sociedade, como, por exemplo, menor retorno dos investimentos públicos em educação e aumento do custo por estudante formado.
 
 ## Objetivo do projeto
 
-O objetivo é responder a pergunta central:
+O objetivo é responder a pergunta:
 <p align='center'>Quais características dos cursos estão associadas a maiores taxas de evasão, e é possível antecipar quais cursos terão evasão alta no ano seguinte?</p>
 
 ## Dataset
