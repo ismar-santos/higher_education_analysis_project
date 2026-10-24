@@ -1,14 +1,16 @@
 """
-Nome:      data_cleaning.py
-Descrição: Executa a limpeza dos dados justificada no notebook data_cleaning_rationale. As seções nos
-           comentários correspondem às seções no notebook.
+Limpa os dados com justifitivas no notebook data_cleaning_rationale. As seções nos comentários correspondem às
+seções no notebook.
 """
+
+
 
 import pandas as pd
 
 def affected_data_calc(df0, df):
-    rows_affected = df0.loc[~(df0 == df).all(axis=1).values]
-    cols_affected = df0.columns[~(df0 == df).all().values]
+    comp = df0.eq(df) | (df0.isna() & df.isna()) # Comparação entre nulos deve retornar True
+    rows_affected = df0.loc[~comp.all(axis=1)]
+    cols_affected = df0.columns[~comp.all()]
 
     return len(rows_affected), len(cols_affected)
 
