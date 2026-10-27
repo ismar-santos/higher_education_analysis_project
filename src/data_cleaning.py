@@ -54,7 +54,7 @@ def fix_invalid_data(df):
 def manipulates_cols(df):
     cols_drop = ['vagas_ps', 'inscritos_ps', 'aprovados_ps', 'rel_cand_vaga', 'vagas_sisu']
     
-    return df.drop(columns=cols_drop), (0, len(cols_drop))
+    return df.drop(columns=cols_drop), ('-', len(cols_drop))
 
 
 
@@ -63,9 +63,8 @@ def manipulates_cols(df):
 
 def drop_na(df):
     rows_with_na = df[df.columns].isna().any(axis=1).values
-    # cols_with_na = df[df.columns].isna().any().values
 
-    return df.dropna(), (len(df.index[rows_with_na]), 0)
+    return df.dropna(), (len(df.index[rows_with_na]), '-')
 
 
 
@@ -135,13 +134,20 @@ def clean_grau_names(df):
         'Licenciatura (Química)': 'Licenciatura'
     })
 
-    df.loc[~df['grau'].isin([
-        'Bacharelado',
-        'Licenciatura',
-        'Segunda Licenciatura',
-        'Múltiplo',
-        'Tecnológico'
-    ]), 'grau'] = 'Desconhecido'
+    # Busca cursos de outros anos com mesmo nome de curso, campus e turno para obter e preencher o grau correto
+    # do curso correspondente de 2025
+    for idx in df[df['ano'] == 2025].index:
+        cols = [df.loc[idx, col] for col in ['curso', 'campus', 'turno']]
+        mask = (
+            (df['curso'] == cols[0]) & (df['campus'] == cols[1]) &
+            (df['turno'] == cols[2]) & (df['ano'] != 2025)
+        )
+        shift_match = df[mask].head(1)['grau'].values
+
+        if shift_match:
+            df.loc[idx, 'grau'] = shift_match[0]
+        else:
+            df.loc[idx, 'grau'] = 'Desconhecido'
 
     return df, affected_data_calc(df0, df)
 
@@ -163,7 +169,7 @@ def clean_missing_courses(df):
                 df = df.drop(df[cat_rows].index)
                 break
 
-    return df, (affected_rows, 0)
+    return df, (affected_rows, '-')
 
 
 
@@ -196,7 +202,7 @@ def del_duplicates(df):
     df, aff_aux = del_exec(df, keep_last, 'last')
     affected_rows += aff_aux
 
-    return df, (affected_rows, 0)
+    return df, (affected_rows, '-')
 
 
 
