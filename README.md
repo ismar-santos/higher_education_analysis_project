@@ -1,4 +1,4 @@
-# Higher Education Analysis
+# Análise de Evasão no Ensino Superior
 
 Segundo o [Instituto Semesp](https://www.semesp.org.br/mapa/edicao-16/brasil/), a taxa de evasão nos cursos presenciais de ensino superior público no Brasil foi em média 21% nos anos de 2018 à 2024. Estas desistências desencadeiam uma série de problemas tanto para os estudantes quanto para a sociedade, como, por exemplo, menor retorno dos investimentos públicos em educação e aumento do custo por estudante formado.
 
